@@ -1,0 +1,23 @@
+# vim stuff{{{
+.vim/
+    
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+# Vundle Plugin Manager
+~/.vim/bundle/*
+bundle/*
+
+#}}}
+# OsX Files 
+.DS_Store
+
+# Java class files
+*.class
